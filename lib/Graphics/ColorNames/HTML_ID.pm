@@ -5,6 +5,7 @@ package Graphics::ColorNames::HTML_ID;
 # DIST
 # VERSION
 
+use 5.010001;
 use strict;
 use warnings;
 
@@ -34,6 +35,8 @@ sub NamesRgbTable() {
 
 1;
 # ABSTRACT: HTML color names and equivalent RGB values (Indonesian translation)
+
+=for Pod::Coverage ^(.+)$
 
 =head1 SYNOPSIS
 
